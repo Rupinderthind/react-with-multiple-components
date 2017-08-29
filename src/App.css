@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+ }
+.App {
+  border: solid 1px;
+}
+.App > div{
+  border: solid 1px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.mainHeading{
+  font-size: 20px;
+}
+.listCon{
+  border: solid 1px #ccc;
+  border-bottom: none;
+  border-top: none;
+  margin-bottom: 20px;
+}
+.mainCon{
+  width: 300px;
+  margin: auto;
+  float: left;
+  padding: 0 15px;
+  background: #f9f9f9;
+}
+.list{
+  border-bottom: solid 1px #ccc;
+  overflow: auto;
+  padding: 10px;
+}
+.list:first-child{
+  border-top: solid 1px #ccc;
+}
+.list .imgCon{
+  width: 40px;
+  float: left;
+}
+.list .imgCon img{
+  width: 100%;
+}
+.list .titleCon{
+  float: left;
+  width: calc(100% - 40px);
+  line-height: 40px;
+  font-size: 18px;
+  text-align: left;
+  padding: 0 15px;
+}
+.inputCon{
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.inputCon input[type="text"]{
+  padding: 0 10px;
+  width: 100%;
+  height: 45px;
+  font-size: 16px;
+}
+.scrollList{
+  height: 1363px;
+  overflow: auto;
+}
+.apiRender{
+  float: left;
+  width: 600px;
+  padding: 0 15px 15px;
+  background: #eee;
+}
+.changeColor{
+  float: left;
+  width: calc(100% - 900px);
+  padding: 0 15px;
+  background: #e4c780;
+}
+.handleAnimation{
+  float: left;
+  width: calc(100% - 900px);
+  padding: 0 15px 15px;
+  background: #abbdcc;
+}
+.formHandle{
+  float: left;
+  width: calc(100% - 900px);
+  padding: 0 15px 15px;
+  background: #b8abcc; 
+}
+.materialCon{
+  float: left;
+  width: calc(100% - 900px);
+}
